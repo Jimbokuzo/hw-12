@@ -1,0 +1,83 @@
+
+export const users = [{
+  "id": 1,
+  "name": "Maudie",
+  "age": 56,
+  "email": "mjelleman0@creativecommons.org",
+  "country": "Indonesia",
+  "company": "Skyba",
+  "birthday": "31-08-1963"
+}, {
+  "id": 2,
+  "name": "Thomasina",
+  "age": 33,
+  "email": "targyle1@cmu.edu",
+  "country": "Poland",
+  "company": "Babbleset",
+  "birthday": "24-03-1990"
+}, {
+  "id": 3,
+  "name": "Giffer",
+  "age": 22,
+  "email": "gvanyakin2@nasa.gov",
+  "country": "South Africa",
+  "company": "Thoughtbeat",
+  "birthday": "15-10-1974"
+}, {
+  "id": 4,
+  "name": "Betteanne",
+  "age": 56,
+  "email": "bredman3@discovery.com",
+  "country": "Greece",
+  "company": "Demivee",
+  "birthday": "28-04-1963"
+}, {
+  "id": 5,
+  "name": "Ruddy",
+  "age": 60,
+  "email": "rheaphy4@php.net",
+  "country": "Philippines",
+  "company": "Muxo",
+  "birthday": "17-12-2017"
+}, {
+  "id": 6,
+  "name": "Pietro",
+  "age": 63,
+  "email": "pmacgillespie5@psu.edu",
+  "country": "Mauritania",
+  "company": "Skiptube",
+  "birthday": "02-08-1957"
+}, {
+  "id": 7,
+  "name": "Arni",
+  "age": 60,
+  "email": "amatoshin6@com.com",
+  "country": "Thailand",
+  "company": "Thoughtstorm",
+  "birthday": "22-05-1954"
+}, {
+  "id": 8,
+  "name": "Alistair",
+  "age": 43,
+  "email": "aohanley7@meetup.com",
+  "country": "Indonesia",
+  "company": "Avamm",
+  "birthday": "24-06-1970"
+}, {
+  "id": 9,
+  "name": "Angel",
+  "age": 26,
+  "email": "acastel8@com.com",
+  "country": "Paraguay",
+  "company": "Dabjam",
+  "birthday": "25-06-1960"
+}, {
+  "id": 10,
+  "name": "Basilius",
+  "age": 62,
+  "email": "bmckaile9@nationalgeographic.com",
+  "country": "China",
+  "company": "Tazzy",
+  "birthday": "03-09-1944"
+}]
+

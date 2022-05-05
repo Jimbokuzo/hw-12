@@ -1,0 +1,86 @@
+::-webkit-scrollbar {
+    width: 8px; 
+    height: 5px;
+    background-color: rgb(39, 39, 39);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(155, 93, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px rgb(155, 93, 255);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(118, 71, 194);
+}
+body{
+    margin: auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    max-width: 1500px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    background: rgb(39, 39, 39);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+h1{
+    margin: auto;
+    cursor:default ;
+    color: rgb(194, 194, 194);
+    font-size: 72px;
+    font-weight: bold;
+    transition: .5s;
+}
+h1:hover{
+    text-shadow: 0 0 15px white;
+    transition: .5s;
+    
+}
+.userBlock{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.userCard{
+    background: rgb(0, 0, 0);
+    margin: 15px;
+    width: 450px;
+    height: 470px;
+    border-radius: 20px;
+    padding-top: 7px;
+    transition: 1s;
+}
+.userCard:hover{
+    box-shadow: 0 5px 20px black;
+    transition: .5s;
+}
+.user-block { 
+    width: 420px;
+    height: 430px;
+    background: rgb(49, 49, 49);
+    padding: 1px 15px;
+    margin-top: 15px;
+    
+}
+
+p { 
+    color: rgb(194, 194, 194);
+    font-size: 25px;
+}
+.main{
+    background-image: linear-gradient(
+        to bottom right,
+        #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%
+    );
+    background-size: 200% 200%;
+    animation: movingGradient 6s linear infinite alternate;
+}
+@keyframes movingGradient{
+    from { background-position: 0 0;}
+    to {background-position: 100% 100%; }
+}
